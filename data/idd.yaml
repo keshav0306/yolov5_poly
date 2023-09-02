@@ -1,0 +1,12 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# Example usage: python train.py --data data/idd.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /  # dataset root dir
+train: Users/keshavgupta/desktop/train.txt 
+val: Users/keshavgupta/desktop/val.txt
+test: Users/keshavgupta/desktop/test.txt # test images (optional)  
+
+# Classes
+names:
+  0: Trapezium
